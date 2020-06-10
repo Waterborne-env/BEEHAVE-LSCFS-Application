@@ -54,8 +54,8 @@ doys_plt = list('All dates' = NA, 'First year' = 191:365,
 
 lim_a_plt = c(0, 44)
 brk_a_plt = seq(-44, 44, 2)*1000
-lab_a_plt = seq(-4, 4)*10000
-tck_a_plt =  match(a.tck.lab, a.brk)-1
+lab_a_plt = seq(-40, 40, 4)
+tck_a_plt =  match(lab_a_plt*1000, brk_a_plt)-1
 
 brk_h_plt = seq(-34, 34, 2)
 tck_h_plt = seq(2, 34, 4)
@@ -75,7 +75,8 @@ for(doys in names(doys_plt)){
   }
   
   # Adult Bees 
-  tmp_plt = with(tmp_df, hist(adult-cca_adult, breaks = brk_a_plt, plot = F))
+  tmp_plt = with(tmp_df, 
+    hist(adult_num-cca_adult, breaks = brk_a_plt, plot = F))
   plot(NA, ylim = c(0, 50), xlim = lim_a_plt, xaxt = 'n', yaxt = 'n',
     xlab = '', ylab = '', xaxs = 'i', yaxs = 'i')
   mtext(doys, side = 2, line = 4.75, cex = 0.75, font = 2) # label
@@ -86,11 +87,11 @@ for(doys in names(doys_plt)){
   mtext('Frequency', side = 2, line = 2.5, cex = 0.75) # y axis label
   axis(2, at = seq(0, 5)*10, las = 2, cex = 0.75) # y axis marker
   abline(h = seq(1, 4)*10, col = '#D3D3D3', lty = 3) # y grid
-  abline(v = tck_a_plt[2:(length(tck_a_plt)-1)], col = '#D3D3D3', lty = 3) # x 
-  abline(v = 23, col = '#000000', lty = 3)
+  abline(v = tck_a_plt, col = '#D3D3D3', lty = 3) # x 
+  abline(v = 22, col = '#000000', lty = 3)
   barplot(tmp_plt$counts, width = 1, space = 0, col = 'white', add = TRUE,
     xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', xaxs = 'i', yaxs = 'i')
-
+  
   # Honey 
   tmp_plt = with(tmp_df, hist(honey_kg-cca_honey_kg, 
     breaks = brk_h_plt, plot = FALSE))
