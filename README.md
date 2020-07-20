@@ -1,15 +1,15 @@
 # BEEHAVE Model Validation: How To
 Author: Colleen Roy
 
-Last Edited: 2020-03-25
+Last Edited: 2020-07-20
 
 
 ## Disclaimer
 The software and associated files uploaded in this repository were used to generate the results to be published in:
 
-Schmolke A, Abi-Akar F, Roy C, Galic N, Hinarejos S. Validation of the BEEHAVE model with data from honey bee large-scale colony feeding studies. Submitted.
+Schmolke A, Abi-Akar F, Roy C, Galic N, Hinarejos S. Simulating honey bee large-scale colony feeding studies using the BEEHAVE model. Part I: model validation. Submitted.
 
-Abi-Akar F, Schmolke A, Roy C, Galic N, Hinarejos S. Analysis of overwintering outcomes in honey bee large-scale colony feeding studies using the BEEHAVE model. Submitted.
+Abi-Akar F, Schmolke A, Roy C, Galic N, Hinarejos S. Simulating honey bee large-scale colony feeding studies using the BEEHAVE model. Part II: analysis of overwintering outcomes. Submitted.
 
 Both the manuscripts have been submitted for review to a scientific journal.
 
