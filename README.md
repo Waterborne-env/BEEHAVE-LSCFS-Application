@@ -1,21 +1,19 @@
 # BEEHAVE Model Validation: How To
 Author: Colleen Roy
 
-Last Edited: 2020-07-20
+Last Edited: 2021-01-19
 
 
 ## Disclaimer
 The software and associated files uploaded in this repository were used to generate the results to be published in:
 
-Schmolke A, Abi-Akar F, Roy C, Galic N, Hinarejos S. Simulating honey bee large-scale colony feeding studies using the BEEHAVE model. Part I: model validation. Submitted.
+Schmolke A, Abi-Akar F, Roy C, Galic N, Hinarejos S (2020). Simulating honey bee large-scale colony feeding studies using the BEEHAVE model. Part I: model validation. Environmental Toxicology and Chemistry, 39: 2269-2285.
 
-Abi-Akar F, Schmolke A, Roy C, Galic N, Hinarejos S. Simulating honey bee large-scale colony feeding studies using the BEEHAVE model. Part II: analysis of overwintering outcomes. Submitted.
-
-Both the manuscripts have been submitted for review to a scientific journal.
+Abi-Akar F, Schmolke A, Roy C, Galic N, Hinarejos S (2020). Simulating honey bee large-scale colony feedings studies using the BEEHAVE model. Part II: analysis of overwintering outcomes. Environmental Toxicology and Chemistry, 39: 2286-2297.
 
 *This software and associated files are provided "as is" with the sole purpose to allow the reproduction of the published results without any warranties of performance or fitness for any other purpose.*
 
-## Publication: Schmolke et al. (submitted)
+## Publication: Schmolke et al. (2020)
 ### BEEHAVE by Study
 *In order to run BEEHAVE you must:* Have NetLogo 5 installed (for runs in this study, NetLogo 5.3.1 was used). The link to download NetLogo 5.3.1 is here: https://ccl.northwestern.edu/netlogo/5.3.1/
 
@@ -117,7 +115,7 @@ The script “Plot_GoodnessOfFitIndicators.R” produces the plots that are pres
 	Line 8: File path to output from Calc_GoodnessOfFitIndicators.R, GoodnessOfFitIndicators_LSCFS.csv (gofi_fp)
 	Line 9: File path to output from Calc_GoodnessOfFitIndicators_biascorr.R, GoodnessOfFitIndicators_LSCFS_biascorr.csv (bias_fp)
 
-## Publication: Abi-Akar et al. (submitted)
+## Publication: Abi-Akar et al. (2020)
 ### Overwinter Analysis
 #### Part2_OverwinterAnalysis.R
 
